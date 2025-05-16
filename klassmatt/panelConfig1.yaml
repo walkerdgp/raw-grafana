@@ -76,3 +76,16 @@ edges:
     to: SERVER - KLASS-WEB-09
   - from: appservers
     to: SERVER - KLASS-WEB-10
+
+
+classes:
+  firewall:
+    fill: "#ff5555"
+    stroke: "#000000"
+  backend:
+    fill: "#ffaa00"
+    stroke: "#000000"
+  server:
+    fill: "#0055ff"
+    stroke: "#000000"
+    
