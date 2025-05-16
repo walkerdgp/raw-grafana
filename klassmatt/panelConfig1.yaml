@@ -1,0 +1,85 @@
+nodes:
+  - id: firewall
+    label: "Firewall"
+    shape: rect
+    class: firewall
+
+  - id: appservers
+    label: "APPSERVERS"
+    shape: rect
+    class: backend
+
+  - id: app-01
+    label: "SERVER - K-APPSERVER-01"
+    shape: rect
+    class: server
+
+  - id: app-02
+    label: "SERVER - K-APPSERVER-02"
+    shape: rect
+    class: server
+
+  - id: app-03
+    label: "SERVER - K-APPSERVER-03"
+    shape: rect
+    class: server
+
+  - id: app-04
+    label: "SERVER - K-APPSERVER-04"
+    shape: rect
+    class: server
+
+  - id: app-05
+    label: "SERVER - K-APPSERVER-05"
+    shape: rect
+    class: server
+
+  - id: app-06
+    label: "SERVER - K-APPSERVER-06"
+    shape: rect
+    class: server
+
+  - id: app-07
+    label: "SERVER - K-APPSERVER-07"
+    shape: rect
+    class: server
+
+  - id: app-08
+    label: "SERVER - K-APPSERVER-08"
+    shape: rect
+    class: server
+
+  - id: app-09
+    label: "SERVER - K-APPSERVER-09"
+    shape: rect
+    class: server
+
+  - id: app-10
+    label: "SERVER - K-APPSERVER-10"
+    shape: rect
+    class: server
+
+edges:
+  - from: firewall
+    to: appservers
+
+  - from: appservers
+    to: app-01
+  - from: appservers
+    to: app-02
+  - from: appservers
+    to: app-03
+  - from: appservers
+    to: app-04
+  - from: appservers
+    to: app-05
+  - from: appservers
+    to: app-06
+  - from: appservers
+    to: app-07
+  - from: appservers
+    to: app-08
+  - from: appservers
+    to: app-09
+  - from: appservers
+    to: app-10
