@@ -1,5 +1,5 @@
 nodes:
-  - id: FIREWALL - FW_KLASSMATT - INTEGRA
+  - id: firewall
     label: "FIREWALL - FW_KLASSMATT - INTEGRA"
     shape: rect
     class: firewall
@@ -9,53 +9,48 @@ nodes:
     shape: rect
     class: backend
 
-  - id: app-01
-    label: "SERVER - K-APPSERVER-01"
+  - id: SERVER - KLASS-WEB-01
+    label: "SERVER - KLASS-WEB-01"
     shape: rect
     class: server
 
-  - id: app-02
-    label: "SERVER - K-APPSERVER-02"
+  - id: SERVER - KLASS-WEB-02
+    label: "SERVER - KLASS-WEB-02"
     shape: rect
     class: server
 
-  - id: app-03
-    label: "SERVER - K-APPSERVER-03"
+  - id: SERVER - KLASS-WEB-03
+    label: "SERVER - KLASS-WEB-03"
     shape: rect
     class: server
 
-  - id: app-04
-    label: "SERVER - K-APPSERVER-04"
+  - id: SERVER - KLASS-WEB-04
+    label: "SERVER - KLASS-WEB-04"
     shape: rect
     class: server
 
-  - id: app-05
-    label: "SERVER - K-APPSERVER-05"
+  - id: SERVER - KLASS-WEB-05
+    label: "SERVER - KLASS-WEB-05"
     shape: rect
     class: server
 
-  - id: app-06
-    label: "SERVER - K-APPSERVER-06"
+  - id: SERVER - KLASS-WEB-06
+    label: "SERVER - KLASS-WEB-06"
     shape: rect
     class: server
 
-  - id: app-07
-    label: "SERVER - K-APPSERVER-07"
+  - id: SERVER - KLASS-WEB-07
+    label: "SERVER - KLASS-WEB-07"
     shape: rect
     class: server
 
-  - id: app-08
-    label: "SERVER - K-APPSERVER-08"
+  - id: SERVER - KLASS-WEB-01
+    label: "SERVER - KLASS-WEB-09"
     shape: rect
     class: server
 
-  - id: app-09
-    label: "SERVER - K-APPSERVER-09"
-    shape: rect
-    class: server
-
-  - id: app-10
-    label: "SERVER - K-APPSERVER-10"
+  - id: SERVER - KLASS-WEB-10
+    label: "SERVER - KLASS-WEB-10"
     shape: rect
     class: server
 
@@ -64,22 +59,20 @@ edges:
     to: appservers
 
   - from: appservers
-    to: app-01
+    to: SERVER - KLASS-WEB-01
   - from: appservers
-    to: app-02
+    to: SERVER - KLASS-WEB-02
   - from: appservers
-    to: app-03
+    to: SERVER - KLASS-WEB-03
   - from: appservers
-    to: app-04
+    to: SERVER - KLASS-WEB-04
   - from: appservers
-    to: app-05
+    to: SERVER - KLASS-WEB-05
   - from: appservers
-    to: app-06
+    to: SERVER - KLASS-WEB-06
   - from: appservers
-    to: app-07
+    to: SERVER - KLASS-WEB-07
   - from: appservers
-    to: app-08
+    to: SERVER - KLASS-WEB-09
   - from: appservers
-    to: app-09
-  - from: appservers
-    to: app-10
+    to: SERVER - KLASS-WEB-10
