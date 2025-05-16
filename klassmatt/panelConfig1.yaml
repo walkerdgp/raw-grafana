@@ -1,6 +1,6 @@
 nodes:
-  - id: firewall
-    label: "Firewall"
+  - id: FIREWALL - FW_KLASSMATT - INTEGRA
+    label: "FIREWALL - FW_KLASSMATT - INTEGRA"
     shape: rect
     class: firewall
 
